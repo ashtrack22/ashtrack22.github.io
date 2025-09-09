@@ -1,119 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Abhinav Yedla</title>
-
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinav Yedla</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  <!-- Navigation -->
-  <nav>
-    <div class="nav-left">Abhinav Yedla</div>
-    <div class="nav-right"><a href="contact.html">Contact</a></div>
-  </nav>
-
-  <!-- Splash Header -->
-  <header>
-    <h1>Abhinav Yedla</h1>
-    <img src="images/headshot.jpg" alt="Headshot of Abhinav Yedla" width="200" class = "headshot">
-
-    <p class="address">
-      1000 Lakeside Dr, Athens, GA 30605<br>
-      Phone: (470)-701-6948<br>
-      Email: ay60363@uga.edu
-    </p>
-
-    <p class="tagline">
-      Passionate about technology, web development, and problem-solving. 
-      Interested in building scalable applications and learning new technologies.
-    </p>
-  </header>
-
-  <main>
-    <!-- Education -->
-    <section>
-      <h3>Education</h3>
-      <dl>
-        <dt>B.S. in Computer Science</dt>
-        <dd>University of Georgia, 2026</dd>
-      </dl>
-    </section>
-
-    <!-- Honors & Awards -->
-    <section>
-    <h2>Honors & Awards</h2>
-    <ul class="honors-list">
-        <li>
-            <strong>Future Business Leaders of America</strong><br>
-            Data Analysis - State Winner
-        </li>
-        <li>
-            <strong>Dean's List</strong><br>
-            Spring 2023<br>
-            Fall 2023<br>
-            Spring 2024
-        </li>
-        <li>
-            <strong>Presidential Scholar</strong><br>
-            Summer 2025
-        </li>
-    </ul>
-</section>
-
-    <!-- Skills -->
-    <section>
-      <h3>Skills</h3>
-      <ul>
-        <li>Java, Python, SQL, HTML, CSS, JavaScript</li>
-        <li>Git & GitHub</li>
-      </ul>
-    </section>
-
-    <!-- Leadership & Experience -->
-    <section>
-      <h3>Leadership & Experience</h3>
-      <p>
-        Student Worker at 
-        <a href="https://example.com">Barberitos - Market at Tate</a>
-      </p>
-    </section>
-
-    <!-- Projects -->
-    <section>
-      <h3>Projects</h3>
-      <div class="three-col">
-        <div class="card">
-          <img src="images/proj_img1.jpg" alt="Screenshot of Project One">
-          <p> Developed a program to compare two files 
-byte-by-byte, output differences, and measure performance using system calls.</p>
+    <header>
+        <nav>
+            <p>Abhinav Yedla</p>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="header-content">
+            <img src="images/headshot.jpg" alt="Headshot of Abhinav Yedla">
+            <div class="intro-text">
+                <h1>Abhinav Yedla</h1>
+                <p class="address">
+                    1000 Lakeside Dr, Athens, GA 30605<br>
+                    Phone: (470)-701-6948<br>
+                    Email: ay60363@uga.edu
+                </p>
+                <p class="tagline">
+                    Passionate about technology, web development, and problem-solving. 
+                    Interested in building scalable applications and learning new technologies.
+                </p>
+            </div>
         </div>
-        <div class="card">
-          <img src="images/proj_img2.jpg" alt="Screenshot of Project Two">
-          <p>Designed a movie website where users can make an account, rate movies, leave reviews using SQL queries and Java</p>
-        </div>
-        <div class="card">
-          <img src="images/proj_img3.jpg" alt="Screenshot of Project Three">
-          <p>Developed a dynamic survey form that collects user feedback, allowing 
-resers to input their name, email, and select their role from predefined options. Integrated functionality to 
-seamlessly transfer submitted data to another page for processing. </p>
-        </div>
-      </div>
-    </section>
-  </main>
+    </header>
 
-  <!-- Footer -->
-  <footer>
-    <p>
-      <a href="contact.html">Abhinav Yedla</a> | 
-      <a href="https://www.linkedin.com/in/your-profile">LinkedIn</a>
-    </p>
-  </footer>
+    <main>
+        <!-- Education -->
+        <section>
+            <h2>Education</h2>
+            <dl class="vertical-list">
+                <dt>B.S. in Computer Science</dt>
+                <dd>University of Georgia, 2026</dd>
+            </dl>
+        </section>
+
+        <!-- Honors & Awards -->
+        <section>
+            <h2>Honors & Awards</h2>
+            <dl class="vertical-list">
+                <dt><strong>Future Business Leaders of America</strong></dt>
+                <dd>Data Analysis - State Winner</dd>
+                <dt><strong>Dean's List</strong></dt>
+                <dd>Spring 2023</dd>
+                <dd>Fall 2023</dd>
+                <dd>Spring 2024</dd>
+                <dt><strong>Presidential Scholar</strong></dt>
+                <dd>Summer 2025</dd>
+            </dl>
+        </section>
+
+        <!-- Skills -->
+        <section>
+            <h2>Skills</h2>
+            <ul class="vertical-list">
+                <li>Java, Python, SQL, HTML, CSS, JavaScript</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+
+        <!-- Leadership & Experience -->
+        <section>
+            <h2>Leadership & Experience</h2>
+            <p>
+                Student Worker at 
+                <a href="https://example.com" target="_blank">Barberitos - Market at Tate</a>
+            </p>
+        </section>
+
+        <!-- Projects -->
+        <section>
+            <h2>Projects</h2>
+            <div class="three-col">
+                <div class="card">
+                    <img src="images/proj_img1.jpg" alt="Screenshot of Project One">
+                    <h3>File Comparison Program</h3>
+                    <p>Developed a program to compare two files byte-by-byte, output differences, and measure performance using system calls.</p>
+                </div>
+                <div class="card">
+                    <img src="images/proj_img2.jpg" alt="Screenshot of Project Two">
+                    <h3>Movie Website</h3>
+                    <p>Designed a movie website where users can make an account, rate movies, leave reviews using SQL queries and Java.</p>
+                </div>
+                <div class="card">
+                    <img src="images/proj_img3.jpg" alt="Screenshot of Project Three">
+                    <h3>Dynamic Survey Form</h3>
+                    <p>Developed a dynamic survey form that collects user feedback, allowing users to input name, email, and select role from predefined options. Integrated functionality to transfer submitted data for processing.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            <a href="index.html">Abhinav Yedla</a> | 
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+        </p>
+    </footer>
 </body>
 </html>
